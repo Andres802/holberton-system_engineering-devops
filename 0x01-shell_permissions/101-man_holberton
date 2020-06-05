@@ -1,10 +1,12 @@
+man(2)
+
 man "04 June 2020 "0.32" "holberton man page"
 
 NAME
 	holberton - become a full-stack software engineer.
 
 SYNOPSYS
-	holberton Andres Barrera
+	holberton [STUDENTNAME]
 
 DESCRIPTION
 	Holberton School is a project-based alternative to college for the bext generation of software engineers.
