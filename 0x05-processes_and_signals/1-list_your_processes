@@ -3,5 +3,3 @@
 
 	echo 
 	ps -x -u
-	echo 
-done
