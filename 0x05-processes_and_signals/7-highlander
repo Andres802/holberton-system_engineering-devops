@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#Bash script that displays: To infinity and beyond indefinitely
+trap 'echo "I am invincible!!!"' 15
+trap no_ctrlc SIGINT
+while(true)
+do
+	echo "To infinity and beyond"
+	sleep 0.5
+done
