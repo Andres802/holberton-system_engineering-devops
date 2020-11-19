@@ -23,6 +23,6 @@ CMD CHALLENGE is a pretty cool game challenging you on Bash skills. Everything i
 ## Author: 
 ### Andres Barrera <1269@holbertonschool.com>
 ----
-[![Twitter Follow](https://twitter.com/codesectest)
+[![Twitter Follow] (https://twitter.com/codesectest)
 
 11/2020
