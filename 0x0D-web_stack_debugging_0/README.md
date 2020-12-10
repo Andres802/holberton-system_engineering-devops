@@ -34,7 +34,7 @@ What you should learn from this project:
 ---
 
 <p align="center">
-    <h2 align="center">Made by, David Arias Fuentes</h2>
+    <h2 align="center">Made by, Andres Felipe Barrera</h2>
       <p align="center">
         <a href="https://twitter.com/codesectest" target="_blank">
             <img alt="twitter_page" src="https://github.com/gedafu/readme-template/blob/master/images/twitter.png" style="float: center; margin-right: 10px" height="50" width="50">
