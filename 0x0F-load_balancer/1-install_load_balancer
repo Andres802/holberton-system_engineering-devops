@@ -1,18 +1,16 @@
 #!/usr/bin/env bash
 # install and configure HAprozy in the server
-sudo apt-get -y install software-properties-common
-sudo add-apt-repository -y ppa:vbernat/haproxy-2.0
 sudo apt-get -y update
-sudo apt-get install -y haproxy=1.6.\*
+sudo apt-get -y install haproxy
 
-cat >> /etc/haproxy/haproxy.cfg << EOL
+sudo cat >> /etc/haproxy/haproxy.cfg << EOL
 frontend front
     bind *:80
     mode http
     default_backend back
 backend back
     balance roundrobin
-    server 1269-web-01 34.73.186.220 check
-    server 1269-web-02 35.237.108.29 check
+    server 1269-web-01 34.73.186.220:80 check
+    server 1269-web-02 35.237.108.29:80 check
 EOL
 sudo /etc/init.d/haproxy restart
