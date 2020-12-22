@@ -1,0 +1,13 @@
+sudo apt-get update
+sudo apt-get install -y haproxy=1.6.\*
+
+cat >> /etc/haproxy/haproxy.cfg << EOL
+frontend front
+    bind *:80
+    default_backend back
+backend back
+    balance roundrobin
+    server 1269-web-01 34.73.186.220 check
+    server 1269-web-02 35.237.108.29 check
+EOL
+sudo /etc/init.d/haproxy restart
