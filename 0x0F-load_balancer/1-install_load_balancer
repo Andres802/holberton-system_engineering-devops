@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+# install and configure HAprozy in the server
 sudo apt-get update
 sudo apt-get install -y haproxy=1.6.\*
 
