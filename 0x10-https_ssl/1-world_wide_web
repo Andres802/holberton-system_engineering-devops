@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # script that will display information about subdomains. 
+# shellcheck disable=SC2086
 
 if [ $# -eq 2 ]
 then
