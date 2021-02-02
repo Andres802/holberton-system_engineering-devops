@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 """script to have employee information and work status list"""
 
+import json
 import requests
 import sys
-import json
 
 if __name__ == "__main__":
 
