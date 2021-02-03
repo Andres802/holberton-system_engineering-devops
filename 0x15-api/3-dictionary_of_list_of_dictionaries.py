@@ -20,6 +20,6 @@ if __name__ == "__main__":
                 new_task['username'] = user.get('username')
                 task_list.append(new_task)
         data['{}'.format(user.get('id'))] = task_list
-    # Create file 
+    # Create file
     with open('todo_all_employees.json', 'w') as json_file:
         json.dump(data, json_file)
